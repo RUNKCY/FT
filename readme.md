@@ -93,10 +93,10 @@ heroku git:remote -a Heroku的專案名稱
 git push heroku master
 ```
 
-## 更新專案至Heroku
+## 更新專案至Heroku ,Render
 
 ```
 git add .
 git commit -m "寫入你做的修改"
-git push heroku master
+git push origin main
 ```
